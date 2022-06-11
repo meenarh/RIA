@@ -52,7 +52,7 @@ a.btn-link{
 }
 
 .home{
-    background: url(./img/image3.png);
+    background: url(./img/image.png);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center; /* Center the image */
@@ -263,4 +263,86 @@ footer{
     line-height: 26px;
     font-weight: 500;
     padding: 22px;
+}
+
+
+@media (max-width: 600px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    nav{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home{
+        background: url(./img/image3.png);
+        width: 100%;
+    }
+
+    h5 span{
+        color: white;
+    }
+
+    .grid{
+        display: grid;
+    }
+
+    .grid-item img{
+        justify-content: center;
+    }
+
+    .item1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .item2{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .item3{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .item3 img{
+        width: 293px;
+        height: 300px;
+    } 
+
+    .item4{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .item5{
+        grid-column: 1;
+        grid-row: 5;
+    }
+ 
+    .portraits{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weddings{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nature{
+        display: flex;
+        flex-direction: column;
+    }
 }
