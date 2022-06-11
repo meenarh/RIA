@@ -1,0 +1,266 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 47px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #0F0F0F;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.nav-links button{
+    background: #0F0F0F;
+    color: #FFFFFF;
+    width: 150px;
+    height: 30px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+a.btn-link{
+    color: #FFFFFF;
+}
+
+.home{
+    background: url(./img/image3.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    position: relative;
+}
+
+h4{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    font-size: 30px;
+    line-height: 52px;
+    font-weight: 500;
+    color: white;
+}
+
+h5{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 40px;
+    line-height: 69px;
+    font-weight: 500;
+    color: white;
+}
+
+h5 span{
+    color: #0F0F0F;
+}
+
+.grid{
+    background: #f5f5f5;
+}
+
+.grid h3{
+    text-align: center;
+    color: #0F0F0F;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 52px;
+    margin: 30px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-item{
+    padding-left: 22px;
+}
+
+.item1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+}
+  
+.item2 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+}
+
+.item3{
+    grid-row: 1 / span 2;
+}
+  
+.item4{
+    grid-column: 3;
+}
+  
+.item5 {
+    grid-column: 3 / span 1;
+    grid-row: 2;
+}
+
+.grid a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #0F0F0F;
+    border: 1px solid #0F0F0F;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    /* border-radius: 7px; */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+.services{
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+}
+
+.services h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 52px;
+    margin-top: 30px;
+}
+
+.portraits, .weddings, .nature{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.weddings{
+    flex-direction: row-reverse;
+}
+
+.portraits img{
+    margin: 10px;
+}
+
+.text{
+    text-align: justify;
+}
+
+.text h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 52px;
+    margin: 20px;
+}
+
+.text p{
+    text-align: justify;
+    margin: 20px;
+}
+
+.weddings img{
+    margin: 10px;
+}
+
+.nature img{
+    margin: 10px;
+}
+
+.services a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #0F0F0F;
+    border: 1px solid #0F0F0F;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 48%;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    /* border-radius: 7px; */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+footer{
+    background: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-logo{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.05em;
+    font-size: 43px;
+    padding: 20px;
+}
+
+.footer-images img{
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    padding: 22px;
+}
